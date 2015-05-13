@@ -1,0 +1,12 @@
+Small project to learn about topics that intrest me.
+Pokedex is a project where I use sqlite to make a database where
+it contains information on all known Pokemon.
+
+The first part is to use sqlite and C++ to create a database and be able to create a table,
+insert, and select. 
+
+The second part is to use Perl (subject to change) to get information from Bulbapedia,
+an online wiki of Pokemon, and use that to populate the database.
+
+Lastly, I would like to be able to make it so a user can use the Pokedex to search infromation
+on Pokemon they are intrested in by using infromation such as name, type, or id.

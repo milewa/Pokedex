@@ -1,0 +1,4 @@
+1  'Bulbasaur' 	'Grass/Poison'
+4  'Charmander' 'Fire'
+7  'Squirtle'	'Water'
+25 'Pikachu'   	'Electric'
