@@ -1,0 +1,102 @@
+html, body{
+	min-width: 965px;
+	margin: 0px;
+}
+
+#wrapper{
+	position: relative;
+}
+
+#header{
+	background-image: linear-gradient(right , rgb(132,153,173) 33%, rgb(90,176,176) 67%);
+	background-image: -o-linear-gradient(right , rgb(132,153,173) 33%, rgb(90,176,176) 67%);
+	background-image: -moz-linear-gradient(right , rgb(132,153,173) 33%, rgb(90,176,176) 67%);
+	background-image: -webkit-linear-gradient(right , rgb(132,153,173) 33%, rgb(90,176,176) 67%);
+	background-image: -ms-linear-gradient(right , rgb(132,153,173) 33%, rgb(90,176,176) 67%);
+
+	background-image: -webkit-gradient(
+		linear,
+		right top,
+		left top,
+		color-stop(0.33, rgb(132,153,173)),
+		color-stop(0.67, rgb(90,176,176))
+	);
+	height: 5px;
+	width: 100%;
+	
+}
+
+#logo{
+	float: left;
+}
+
+#blurb{
+	padding-left: 300px;
+	padding-top:50px;
+	font-weight: bold;
+	font-size: 17px;
+	
+}
+
+#list{
+	height: 470px;
+	width: 200px;
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 45px;
+	position: absolute;
+	float: left;
+
+}
+
+li{
+	margin-bottom: 5px;
+}
+
+.main{
+	height: 1000px;
+	width: 70%;
+	margin-left: 300px;
+	margin-top: 50px;
+	clear: right;
+	position: relative;
+}
+
+.info p{
+	margin-left: 15px;
+}
+
+.info{
+	position: relative;
+	margin-left: 5px;
+	width: 950px;
+}
+
+.name{
+	margin-left: 10px;
+}
+
+.team{
+	margin: 0 auto;
+	width: 600px;
+	height: 900px; 
+}
+
+table{
+	margin-top: 10px;
+	width: 650px;
+	height: 150px;
+}
+
+td{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
