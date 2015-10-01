@@ -23,8 +23,7 @@ int main(int argc, char* argv[]){
 		exit(0);
 	}else
 		cout << "Opened.\n";
-
-	sql = "SELECT * FROM Pokedex";
+	sql = "SELECT Name FROM Pokedex ";
 	check = sqlite3_exec(db, sql, callback, (void*)data, &zErrMsg);
 	 
 	if(check != SQLITE_OK){
@@ -32,6 +31,27 @@ int main(int argc, char* argv[]){
 		sqlite3_free(zErrMsg);
 		exit(0);
 	}
+
+	cout << "Which Pokemon would you like to learn more about? Or exit to leave.\n";
+	string whichOne, command;
+	string suffix = "';";
+	while(cin >> whichOne){
+		if(whichOne == "exit")
+			break;
+		command = "SELECT * FROM Pokedex WHERE Name = '";
+		command.append(whichOne);
+		command.append(suffix);
+
+		check = sqlite3_exec(db, command.c_str(), callback, (void*)data, &zErrMsg);
+	 
+		if(check != SQLITE_OK){
+			cout << zErrMsg << endl;
+			sqlite3_free(zErrMsg);
+			exit(0);
+		}
+		cout << "Which Pokemon would you like to learn more about? Or exit to leave.\n";
+	}	
+
 	sqlite3_close(db);
 	cout << "Closed\n";
 	return 0;
