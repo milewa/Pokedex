@@ -9,6 +9,9 @@ The second part is to use Perl (subject to change) to get information from Bulba
 an online wiki of Pokemon, and use that to populate the database.
 
 Lastly, I would like to be able to make it so a user can query the Pokedex to search information
-on Pokemon they are intrested in by providing information such as name, type, or id.
+on Pokemon they are intrested in by providing information such as name, type, or id. 
 
-Currently, Part 1 where I set up the database is complete.
+I also used HTML and CSS to try and make a front-end site where I can allow users to query the database on a website. 
+Currently, I am taking a web development class and I plan to use what I learned to make the website more dynamic.
+
+
