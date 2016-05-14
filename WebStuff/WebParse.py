@@ -7,21 +7,32 @@ soup = BeautifulSoup(res.text)
 
 allTables = soup.findAll("table", {"align" : "center"});
 
-row = allTables[0].find_all('tr');
+gen = 1;
 
-for info in row:
-    data = info.find_all('td');
-    if not data:
-        continue
-    pId = data[1].getText()
-    name = data[3].find('a').getText().encode("utf8")
-    if int(data[4]["colspan"]) == 1:
-        type1 = data[4].find('a').getText()
-        type2 = data[5].find('a').getText()
-        print type1 + " " + type2
-    else:
-        type1 = data[4].find('a').getText()
-        print type1
+for table in allTables:
+    Gen = "Gen" + str(gen);
+    f = open(Gen, 'w')
+    row = table.find_all('tr');
+
+    for info in row:
+        data = info.find_all('td');
+        if not data:
+            continue
+        pId = data[1].getText().rstrip().encode("utf8")
+        name = data[3].find('a').getText().encode("utf8")
+        type1 = type2 = ''
+        if int(data[4]["colspan"]) == 1:
+            type1 = data[4].find('a').getText().encode("utf8")
+            type2 = data[5].find('a').getText().encode("utf8")
+        else:
+            type1 = data[4].find('a').getText().encode("utf8")
+
+        f.write(pId + " " + name + " " + type1 + " " + type2 + '\n')
+
+    f.close()
+    gen += 1
+
+
 
 #for table in allTables:
 #   row = table.find_all('tr');
