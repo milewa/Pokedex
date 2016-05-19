@@ -1,0 +1,120 @@
+387 Turtwig Grass 
+388 Grotle Grass 
+389 Torterra Grass Ground
+390 Chimchar Fire 
+391 Monferno Fire Fighting
+392 Infernape Fire Fighting
+393 Piplup Water 
+394 Prinplup Water 
+395 Empoleon Water Steel
+396 Starly Normal Flying
+397 Staravia Normal Flying
+398 Staraptor Normal Flying
+399 Bidoof Normal 
+400 Bibarel Normal Water
+401 Kricketot Bug 
+402 Kricketune Bug 
+403 Shinx Electric 
+404 Luxio Electric 
+405 Luxray Electric 
+406 Budew Grass Poison
+407 Roserade Grass Poison
+408 Cranidos Rock 
+409 Rampardos Rock 
+410 Shieldon Rock Steel
+411 Bastiodon Rock Steel
+412 Burmy Bug 
+412 Burmy Bug 
+412 Burmy Bug 
+413 Wormadam Bug Grass
+413 Wormadam Bug Ground
+413 Wormadam Bug Steel
+414 Mothim Bug Flying
+415 Combee Bug Flying
+416 Vespiquen Bug Flying
+417 Pachirisu Electric 
+418 Buizel Water 
+419 Floatzel Water 
+420 Cherubi Grass 
+421 Cherrim Grass 
+422 Shellos Water 
+422 Shellos Water 
+423 Gastrodon Water Ground
+423 Gastrodon Water Ground
+424 Ambipom Normal 
+425 Drifloon Ghost Flying
+426 Drifblim Ghost Flying
+427 Buneary Normal 
+428 Lopunny Normal 
+429 Mismagius Ghost 
+430 Honchkrow Dark Flying
+431 Glameow Normal 
+432 Purugly Normal 
+433 Chingling Psychic 
+434 Stunky Poison Dark
+435 Skuntank Poison Dark
+436 Bronzor Steel Psychic
+437 Bronzong Steel Psychic
+438 Bonsly Rock 
+439 Mime Jr. Psychic Fairy
+440 Happiny Normal 
+441 Chatot Normal Flying
+442 Spiritomb Ghost Dark
+443 Gible Dragon Ground
+444 Gabite Dragon Ground
+445 Garchomp Dragon Ground
+446 Munchlax Normal 
+447 Riolu Fighting 
+448 Lucario Fighting Steel
+449 Hippopotas Ground 
+450 Hippowdon Ground 
+451 Skorupi Poison Bug
+452 Drapion Poison Dark
+453 Croagunk Poison Fighting
+454 Toxicroak Poison Fighting
+455 Carnivine Grass 
+456 Finneon Water 
+457 Lumineon Water 
+458 Mantyke Water Flying
+459 Snover Grass Ice
+460 Abomasnow Grass Ice
+461 Weavile Dark Ice
+462 Magnezone Electric Steel
+463 Lickilicky Normal 
+464 Rhyperior Ground Rock
+465 Tangrowth Grass 
+466 Electivire Electric 
+467 Magmortar Fire 
+468 Togekiss Fairy Flying
+469 Yanmega Bug Flying
+470 Leafeon Grass 
+471 Glaceon Ice 
+472 Gliscor Ground Flying
+473 Mamoswine Ice Ground
+474 Porygon-Z Normal 
+475 Gallade Psychic Fighting
+476 Probopass Rock Steel
+477 Dusknoir Ghost 
+478 Froslass Ice Ghost
+479 Rotom Electric Ghost
+479 Rotom Electric Fire
+479 Rotom Electric Water
+479 Rotom Electric Ice
+479 Rotom Electric Flying
+479 Rotom Electric Grass
+480 Uxie Psychic 
+481 Mesprit Psychic 
+482 Azelf Psychic 
+483 Dialga Steel Dragon
+484 Palkia Water Dragon
+485 Heatran Fire Steel
+486 Regigigas Normal 
+487 Giratina Ghost Dragon
+487 Giratina Ghost Dragon
+488 Cresselia Psychic 
+489 Phione Water 
+490 Manaphy Water 
+491 Darkrai Dark 
+492 Shaymin Grass 
+492 Shaymin Grass Flying
+493 Arceus Normal 
