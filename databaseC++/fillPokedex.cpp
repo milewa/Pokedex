@@ -20,7 +20,7 @@ int main(int argc, char* argv[]){
 	if(check){
 		cout << "Problem occurred\n";
 		exit(0);
-	}else
+	else
 		cout << "Opened.\n";
 	while(cin >> id >> name >> type){
 //		cout << id << " " << name << " " << type << endl;

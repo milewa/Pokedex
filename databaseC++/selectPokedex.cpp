@@ -1,13 +1,19 @@
 #include<iostream>
-#include<sqlite3.h>
 #include<stdlib.h>
 #include<string>
+#include "selectPokedex.h"
 
 using namespace std;
 
-static int callback(void*, int, char**, char**);
+static void switchTable(int genId){
+	whichGen = genId;		
+}
 
-int main(int argc, char* argv[]){
+static bool getInfo(int id){
+	
+}
+
+/*int main(int argc, char* argv[]){
 	sqlite3 *db;
 	char *zErrMsg = 0;
 	int check;
@@ -55,7 +61,7 @@ int main(int argc, char* argv[]){
 	sqlite3_close(db);
 	cout << "Closed\n";
 	return 0;
-}
+}*/
 static int callback(void* NotUsed, int argc, char**argv, char**szColName){
 	for(int i = 0; i < argc; i++){
 		cout << szColName[i] << " = " << argv[i] << endl;
