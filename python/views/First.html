@@ -1,86 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Pok&eacute;mon</title>
-	<meta name="author" content="Michael Wang">
-	<link rel="stylesheet" type="/text/css" href="css_tests.css">
-</head>
+{% extends "base.html" %}
+{% block content %}
 <body>
-	<div id="header"></div>
-	<div>
-		<img src="logo.png" id="logo">
-		<p id="blurb"> A site used to practice my skills in website design. It is filled with information about the main 
-			Pok&eacute;mon games and the teams I used in them.</p>
-	</div>
-	<div id="list">
-		<ol><span style="font-size:14px";>
-			<li><a href="First.html">First Generation
-				</a><ul>
-					<a href="First.html#RB"><li>Red and Blue</li></a> 
-					<a href="First.html#Y"><li>Yellow</li></a>
-				</ul>
-			</li>
-			<li><a href="Second.html">Second Generation
-				</a><ul>
-					<a href="Second.html#GS"><li>Gold and Silver</li></a>
-					<a href="Second.html#CYS"><li>Crystal</li></a>
-				</ul>
-			</li>
-				
-			<li>Third Generation
-				<ul>
-					<li>Ruby and Sapphire</li> 
-					<li>Emerald</li>
-					<li>FireRed and LeafGreen</li>
-				</ul>			
-			</li>
-			<li>Fourth Generation
-				<ul>
-					<li>Diamond and Pearl</li> 
-					<li>Platinum</li>
-					<li>HeartGold and SoulSilver</li>
-				</ul>
-			</li>
-			<li>Fifth Generation
-				<ul>
-					<li>Black and White</li>
-					<li>Black 2 and White 2</li>
-				</ul>
-			</li>
-			<li>Sixth Generation
-				<ul>
-					<li>X and Y</li>
-				</ul> 
-			</li>
-			<li><a href="teams.html">My Teams</a></li>
-		</span></ol>
-	</div>
-	<div class="main">
-		<h1 class="Gen">First Generation Games</h1>
+<!--		<h1 class="Gen">First Generation Games</h1>
 		<div class="info">
 			<a name="RB"><h2 class="name">Red and Blue</h2></a>
-			<p>The very first Pokémon games ever made were developed by Gamefreak and published by Nintendo.
+<			<p>The very first Pokémon games ever made were developed by Gamefreak and published by Nintendo.
 				Red and Blue were released in Japan in 1996 as Red and Green. Located in the fictional 
 				region Kanto, players took on the role of a 10 year-old trainer who is given a task to capture Pokémon
 				and complete the Pokédex. Players will also encounter the villainous Team Rocket who are using the 
 				powers of Pokémon for their criminal actions. Along the journey, players have the opportunity to build up a team of 6 of 
 				their favorite Pokémon, defeat Gym Leaders, challenge the Elite Four, and ultimately become the Champion of the Kanto Region.
- 			</p>
+			</p>
 			<figure style="margin-left: 225px;">
 				<img src="red.jpg" alt="Pokémon Red Version">
 				<img src="blue.jpg" style="padding-left: 10px;" alt="Pokémon Blue Version"><br>
 				<figcaption style="clear: both; padding-left:125px;">Box art for Pokémon Red and Blue</figcaption>
-			</figure>
+			</figure> 
 		</div>
 		<div class="info">
 			<a name="Y"><h2 class="name">Yellow</h2></a>
-			<p>The third Pokémon game releashed had a unique twist compared to it's predecessors. Inspired by the Pokémon anime, the player
+<			<p>The third Pokémon game releashed had a unique twist compared to it's predecessors. Inspired by the Pokémon anime, the player
 				would start off with a Pikachu instead of the usual choice between Bulbasaur, Charmander, and Squirtle. However,
 				it is possible for the player to receive all three of them later in the game. In addition, instead of generic Team Rockect grunts
 				, the player fights Jessie and James. Another cool feature is Pikachu follows the trainer around and can be interacted with. This 
 				feature would not been seen again until HeartGold and SoulSilver. Other than the changes mentioned above, the plot is very similar to 
 				Red and Blue.</p>
-			<figure style="float: left;margin-left: 215px;">
+	<		<figure style="float: left;margin-left: 215px;">
 				<img src="yellow.jpg" alt="Pokémon Yellow Version">
 				<figcaption>Box art for Pokemon Yellow</figcaption>
 			</figure>
@@ -88,12 +33,7 @@
 				<img src="interact.jpg">
 				<figcaption>Example of interacting with Pikachu</figcaption>
 			</figure>
-				
-		</div>
 		
-	</div>
-	
-
+		</div>-->
 </body>
-</html>
-
+{% endblock %}
