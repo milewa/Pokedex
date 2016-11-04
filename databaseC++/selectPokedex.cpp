@@ -5,15 +5,12 @@
 
 using namespace std;
 
-static void switchTable(int genId){
-	whichGen = genId;		
-}
-
+static int callback(void*, int, char**, char**);
 static bool getInfo(int id){
 	
 }
 
-/*int main(int argc, char* argv[]){
+int main(int argc, char* argv[]){
 	sqlite3 *db;
 	char *zErrMsg = 0;
 	int check;
@@ -61,7 +58,7 @@ static bool getInfo(int id){
 	sqlite3_close(db);
 	cout << "Closed\n";
 	return 0;
-}*/
+}
 static int callback(void* NotUsed, int argc, char**argv, char**szColName){
 	for(int i = 0; i < argc; i++){
 		cout << szColName[i] << " = " << argv[i] << endl;
