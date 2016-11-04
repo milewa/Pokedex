@@ -1,71 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Pok&eacute;mon</title>
-	<meta name="author" content="Michael Wang">
-	<link rel="stylesheet" type="/text/css" href="team.css">
-</head>
+{% extends "base.html" %}
+{% block content %}
+
 <body>
 	<div id="wrapper">
-		<div id="header"></div>
-			<div>
-				<img src="logo.png" id="logo">
-				<p id="blurb"> A site used to practice my skills in HTML, CSS, and later on Javascript. It is filled with information about the main 
-					Pok&eacute;mon games and the teams I used in them.</p>
-			</div>
-			<div id="list">
-				<ol><span style="font-size:14px";>
-					<li><a href="First.html">First Generation
-						</a><ul>
-							<a href="First.html#RB"><li>Red and Blue</li></a> 
-							<a href="First.html#Y"><li>Yellow</li></a>
-						</ul>
-					</li>
-					<li><a href="Second.html">Second Generation
-						</a><ul>
-							<a href="Second.html#GS"><li>Gold and Silver</li></a>
-							<a href="Second.html#CYS"><li>Crystal</li></a>
-						</ul>
-					</li>
-					<li>Third Generation
-						<ul>
-							<li>Ruby and Sapphire</li> 
-							<li>Emerald</li>
-							<li>FireRed and LeafGreen</li>
-						</ul>				
-					</li>
-					<li>Fourth Generation
-						<ul>
-							<li>Diamond and Pearl</li> 
-							<li>Platinum</li>
-							<li>HeartGold and SoulSilver</li>
-						</ul>
-					</li>
-					<li>Fifth Generation
-						<ul>
-							<li>Black and White</li>
-							<li>Black 2 and White 2</li>
-						</ul>
-					</li>
-					<li>Sixth Generation
-						<ul>
-							<li>X and Y</li>
-						</ul> 
-					</li>
-					<li>My Teams</li>
-				</span>
-			</ol>		
-		</div>
-		<div class="main">
-			<div class="info">
-				<h2 class="Gen">My Teams</h2>
-				<p>Ever since I recieved my first Pokémon game, Pokémon Gold, I have been a huge fan of the Pokémon franchise. I own six games from the
-				main Pokémon series as well as spinoff games. Below, are the friends that I have trained and traveled with on my quest to become the
+		<div class="info">
+			<h2 class="Gen">My Teams</h2>
+				<p>Ever since I recieved my first PokÃ©mon game, PokÃ©mon Gold, I have been a huge fan of the PokÃ©mon franchise. I own six games from the
+				main PokÃ©mon series as well as spinoff games. Below, are the friends that I have trained and traveled with on my quest to become the
 				very best.
 				</p>
 				<div class="team">
-					<table border="1" style="background-color: #FDD017;">
-						<th colspan="6">Pokémon Gold</th>
+					<table border="1" style="background-color: #FDD017">
+						<th colspan="6">PokÃ©mon</th>
 						<tr>
 							<td>Typhlosion</td>
 							<td>Nidoking</td>
@@ -75,17 +21,17 @@
 							<td>Pikachu</td>
 						</tr>
 						<tr>
-							<td><img src="tyGold.png"></td>
-							<td><img src="NidoGold.png"></td>
-							<td><img src="PidGold.png"></td>
-							<td><img src="TogGold.png"></td>
-							<td><img src="genGold.png"></td>
-							<td><img src="PikaGold.png"></td>
+							<td><img src="/static/pictures/tyGold.png"></td>
+							<td><img src="/static/pictures/NidoGold.png"></td>
+							<td><img src="/static/pictures/PidGold.png"></td>
+							<td><img src="/static/pictures/TogGold.png"></td>
+							<td><img src="/static/pictures/genGold.png"></td>
+							<td><img src="/static/pictures/PikaGold.png"></td>
 						</tr>
 					</table>
-
+					
 					<table border="1" style="background-color: #50C878;">
-						<th colspan="6">Pokémon Emerald</th>
+						<th colspan="6">PokÃ©mon Emerald</th>
 						<tr>
 							<td>Sceptile</td>
 							<td>Mightyena</td>
@@ -95,17 +41,17 @@
 							<td>Pikachu</td>
 						</tr>
 						<tr>
-							<td><img src="specEm.png"></td>
-							<td><img src="mightEm.png"></td>
-							<td><img src="swEm.png"></td>
-							<td><img src="azuEm.png"></td>
-							<td><img src="manEm.png"></td>
-							<td><img src="pikaEm.png"></td>
+							<td><img src="/static/pictures/specEm.png"></td>
+							<td><img src="/static/pictures/mightEm.png"></td>
+							<td><img src="/static/pictures/swEm.png"></td>
+							<td><img src="/static/pictures/azuEm.png"></td>
+							<td><img src="/static/pictures/manEm.png"></td>
+							<td><img src="/static/pictures/pikaEm.png"></td>
 						</tr>
 					</table>
 
 					<table border="1" style="background-color: #E5E4E2;">
-						<th colspan="6">Pokémon Platinum</th>
+						<th colspan="6">PokÃ©mon Platinum</th>
 						<tr>
 							<td>Infernape</td>
 							<td>Luxray</td>
@@ -115,17 +61,17 @@
 							<td>Floatzel</td>
 						</tr>
 						<tr>
-							<td><img src="inferPt.png"></td>
-							<td><img src="luxPt.png"></td>
-							<td><img src="rapPt.png"></td>
-							<td><img src="starPt.png"></td>
-							<td><img src="gliPt.png"></td>
-							<td><img src="flPt.png"></td>
+							<td><img src="/static/pictures/inferPt.png"></td>
+							<td><img src="/static/pictures/luxPt.png"></td>
+							<td><img src="/static/pictures/rapPt.png"></td>
+							<td><img src="/static/pictures/starPt.png"></td>
+							<td><img src="/static/pictures/gliPt.png"></td>
+							<td><img src="/static/pictures/flPt.png"></td>
 						</tr>
 					</table>
-					
+
 					<table border="1" style="background-color: #FFDF00;">
-						<th colspan="6">Pokémon HeartGold</th>
+						<th colspan="6">PokÃ©mon HeartGold</th>
 						<tr>
 							<td>Typhlosion</td>
 							<td>Nidoking</td>
@@ -135,17 +81,17 @@
 							<td>Gyarados</td>
 						</tr>
 						<tr>
-							<td><img src="tyHG.png"></td>
-							<td><img src="nidoHG.png"></td>
-							<td><img src="pidHG.png"></td>
-							<td><img src="togHG.png"></td>
-							<td><img src="genHG.png"></td>
-							<td><img src="gyaHG.png"></td>
+							<td><img src="/static/pictures/tyHG.png"></td>
+							<td><img src="/static/pictures/nidoHG.png"></td>
+							<td><img src="/static/pictures/pidHG.png"></td>
+							<td><img src="/static/pictures/togHG.png"></td>
+							<td><img src="/static/pictures/genHG.png"></td>
+							<td><img src="/static/pictures/gyaHG.png"></td>
 						</tr>
 					</table>
 
 					<table border="1">
-						<th colspan="6">Pokémon White</th>
+						<th colspan="6">PokÃ©mon White</th>
 						<tr>
 							<td>Samurott</td>
 							<td>Unfezant</td>
@@ -155,17 +101,17 @@
 							<td>Galvantula</td>
 						</tr>
 						<tr>
-							<td><img src="smW.png"></td>
-							<td><img src="unW.png"></td>
-							<td><img src="reW.png"></td>
-							<td><img src="eleW.png"></td>
-							<td><img src="krW.png"></td>
-							<td><img src="galW.png"></td>
+							<td><img src="/static/pictures/smW.png"></td>
+							<td><img src="/static/pictures/unW.png"></td>
+							<td><img src="/static/pictures/reW.png"></td>
+							<td><img src="/static/pictures/eleW.png"></td>
+							<td><img src="/static/pictures/krW.png"></td>
+							<td><img src="/static/pictures/galW.png"></td>
 						</tr>
 					</table>
 
 					<table border="1" >
-						<th colspan="6">Pokémon White 2</th>
+						<th colspan="6">PokÃ©mon White 2</th>
 						<tr>
 							<td>Serperior</td>
 							<td>Lucario</td>
@@ -175,17 +121,17 @@
 							<td>Golduck</td>
 						</tr>
 						<tr>
-							<td><img src="serWT.png"></td>
-							<td><img src="luWT.png"></td>
-							<td><img src="croWT.png"></td>
-							<td><img src="ampWT.png"></td>
-							<td><img src="arcWT.png"></td>
-							<td><img src="goldWT.png"></td>
+							<td><img src="/static/pictures/serWT.png"></td>
+							<td><img src="/static/pictures/luWT.png"></td>
+							<td><img src="/static/pictures/croWT.png"></td>
+							<td><img src="/static/pictures/ampWT.png"></td>
+							<td><img src="/static/pictures/arcWT.png"></td>
+							<td><img src="/static/pictures/goldWT.png"></td>
 						</tr>
 					</table>
 
 					<table border="1" >
-						<th colspan="6">Pokémon Y</th>
+						<th colspan="6">PokÃ©mon Y</th>
 						<tr>
 							<td>Delphox</td>
 							<td>Talonflame</td>
@@ -195,13 +141,18 @@
 							<td>Gogoat</td>
 						</tr>
 						<tr>
-							<td><img src="DelY.png"></td>
-							<td><img src="talY.png"></td>
-							<td><img src="butY.png"></td>
-							<td><img src="lapY.png"></td>
-							<td><img src="pikaY.png"></td>
-							<td><img src="goY.png"></td>
+							<td><img src="/static/pictures/DelY.png"></td>
+							<td><img src="/static/pictures/talY.png"></td>
+							<td><img src="/static/pictures/butY.png"></td>
+							<td><img src="/static/pictures/lapY.png"></td>
+							<td><img src="/static/pictures/pikaY.png"></td>
+							<td><img src="/static/pictures/goY.png"></td>
 						</tr>
 					</table>
-				</div> 
+				</div>
 		</div>	
+	</div>
+
+</body>
+
+{% endblock %}

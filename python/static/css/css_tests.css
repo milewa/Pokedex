@@ -1,6 +1,7 @@
 html, body{
 	min-width: 965px;
 	margin: 0px;
+	background-color: black;
 }
 
 #wrapper{
@@ -60,6 +61,7 @@ li{
 	margin-top: 50px;
 	clear: right;
 	position: relative;
+	color: red;
 }
 
 .info p{
@@ -76,6 +78,21 @@ li{
 	margin-left: 10px;
 }
 
+.team{
+	margin: 0 auto;
+	width: 600px;
+	height: 900px; 
+}
+
+table{
+	margin-top: 10px;
+	width: 650px;
+	height: 150px;
+}
+
+td{
+	text-align: center;
+}
 
 
 
