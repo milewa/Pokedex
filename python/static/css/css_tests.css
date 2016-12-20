@@ -1,7 +1,6 @@
 html, body{
 	min-width: 965px;
 	margin: 0px;
-	background-color: black;
 }
 
 #wrapper{
@@ -61,7 +60,6 @@ li{
 	margin-top: 50px;
 	clear: right;
 	position: relative;
-	color: red;
 }
 
 .info p{
@@ -93,12 +91,3 @@ table{
 td{
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
