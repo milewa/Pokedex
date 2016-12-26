@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+
+<body>
+	<h1>Pokedex</h1>
+	<form name="Gen", action="{{ url_for('pokedex.select_gen') }}", method="POST">
+		<select name="Gen">
+			<option value="1">Generation I</option>
+			<option value="2">Generation II</option>
+			<option value="3">Generation III</option>
+			<option value="4">Generation IV</option>
+			<option value="5">Generation V</option>
+			<option value="6">Generation VI</option>
+			<option value="7">Generation VII</option>
+		</select>
+		<button type="sumbit">Select Generation</button>
+	</form>
+
+</body>
+
+{% endblock %}

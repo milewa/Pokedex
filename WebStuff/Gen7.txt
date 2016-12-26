@@ -1,4 +1,81 @@
-??? Rowlet Grass Flying
-??? Litten Fire 
-??? Popplio Water 
-??? Magearna Steel Fairy
+722 Rowlet Grass Flying
+723 Dartrix Grass Flying
+724 Decidueye Grass Ghost
+725 Litten Fire 
+726 Torracat Fire 
+727 Incineroar Fire Dark
+728 Popplio Water 
+729 Brionne Water 
+730 Primarina Water Fairy
+731 Pikipek Normal Flying
+732 Trumbeak Normal Flying
+733 Toucannon Normal Flying
+734 Yungoos Normal 
+735 Gumshoos Normal 
+736 Grubbin Bug 
+737 Charjabug Bug Electric
+738 Vikavolt Bug Electric
+739 Crabrawler Fighting 
+740 Crabominable Fighting Ice
+741 Oricorio Fire Flying
+742 Cutiefly Bug Fairy
+743 Ribombee Bug Fairy
+744 Rockruff Rock 
+745 Lycanroc Rock 
+746 Wishiwashi Water 
+747 Mareanie Poison Water
+748 Toxapex Poison Water
+749 Mudbray Ground 
+750 Mudsdale Ground 
+751 Dewpider Water Bug
+752 Araquanid Water Bug
+753 Fomantis Grass 
+754 Lurantis Grass 
+755 Morelull Grass Fairy
+756 Shiinotic Grass Fairy
+757 Salandit Poison Fire
+758 Salazzle Poison Fire
+759 Stufful Normal Fighting
+760 Bewear Normal Fighting
+761 Bounsweet Grass 
+762 Steenee Grass 
+763 Tsareena Grass 
+764 Comfey Fairy 
+765 Oranguru Normal Psychic
+766 Passimian Fighting 
+767 Wimpod Bug Water
+768 Golisopod Bug Water
+769 Sandygast Ghost Ground
+770 Palossand Ghost Ground
+771 Pyukumuku Water 
+772 Type: Null Normal 
+773 Silvally Normal 
+774 Minior Rock Flying
+775 Komala Normal 
+776 Turtonator Fire Dragon
+777 Togedemaru Electric Steel
+778 Mimikyu Ghost Fairy
+779 Bruxish Water Psychic
+780 Drampa Normal Dragon
+781 Dhelmise Ghost Grass
+782 Jangmo-o Dragon 
+783 Hakamo-o Dragon Fighting
+784 Kommo-o Dragon Fighting
+785 Tapu Koko Electric Fairy
+786 Tapu Lele Psychic Fairy
+787 Tapu Bulu Grass Fairy
+788 Tapu Fini Water Fairy
+789 Cosmog Psychic 
+790 Cosmoem Psychic 
+791 Solgaleo Psychic Steel
+792 Lunala Psychic Ghost
+793 Nihilego Rock Poison
+794 Buzzwole Bug Fighting
+795 Pheromosa Bug Fighting
+796 Xurkitree Electric 
+797 Celesteela Steel Flying
+798 Kartana Grass Steel
+799 Guzzlord Dark Dragon
+800 Necrozma Psychic 
+801 Magearna Steel Fairy
+802 Marshadow Fighting Ghost

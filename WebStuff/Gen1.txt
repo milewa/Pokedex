@@ -17,15 +17,20 @@
 017 Pidgeotto Normal Flying
 018 Pidgeot Normal Flying
 019 Rattata Normal 
+019 Rattata Dark Normal
 020 Raticate Normal 
+020 Raticate Dark Normal
 021 Spearow Normal Flying
 022 Fearow Normal Flying
 023 Ekans Poison 
 024 Arbok Poison 
 025 Pikachu Electric 
 026 Raichu Electric 
+026 Raichu Electric Psychic
 027 Sandshrew Ground 
+027 Sandshrew Ice Steel
 028 Sandslash Ground 
+028 Sandslash Ice Steel
 029 Nidoran♀ Poison 
 030 Nidorina Poison 
 031 Nidoqueen Poison Ground
@@ -35,7 +40,9 @@
 035 Clefairy Fairy 
 036 Clefable Fairy 
 037 Vulpix Fire 
+037 Vulpix Ice 
 038 Ninetales Fire 
+038 Ninetales Ice Fairy
 039 Jigglypuff Normal Fairy
 040 Wigglytuff Normal Fairy
 041 Zubat Poison Flying
@@ -48,9 +55,13 @@
 048 Venonat Bug Poison
 049 Venomoth Bug Poison
 050 Diglett Ground 
+050 Diglett Ground Steel
 051 Dugtrio Ground 
+051 Dugtrio Ground Steel
 052 Meowth Normal 
+052 Meowth Dark 
 053 Persian Normal 
+053 Persian Dark 
 054 Psyduck Water 
 055 Golduck Water 
 056 Mankey Fighting 
@@ -72,8 +83,11 @@
 072 Tentacool Water Poison
 073 Tentacruel Water Poison
 074 Geodude Rock Ground
+074 Geodude Rock Electric
 075 Graveler Rock Ground
+075 Graveler Rock Electric
 076 Golem Rock Ground
+076 Golem Rock Electric
 077 Ponyta Fire 
 078 Rapidash Fire 
 079 Slowpoke Water Psychic
@@ -86,7 +100,9 @@
 086 Seel Water 
 087 Dewgong Water Ice
 088 Grimer Poison 
+088 Grimer Poison Dark
 089 Muk Poison 
+089 Muk Poison Dark
 090 Shellder Water 
 091 Cloyster Water Ice
 092 Gastly Ghost Poison
@@ -101,8 +117,10 @@
 101 Electrode Electric 
 102 Exeggcute Grass Psychic
 103 Exeggutor Grass Psychic
+103 Exeggutor Grass Dragon
 104 Cubone Ground 
 105 Marowak Ground 
+105 Marowak Fire Ghost
 106 Hitmonlee Fighting 
 107 Hitmonchan Fighting 
 108 Lickitung Normal 
