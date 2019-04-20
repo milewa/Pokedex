@@ -15,7 +15,11 @@
 		</select>
 		<button type="sumbit">Select Generation</button>
 	</form>
-
+	
+	<form name="ID", action="{{ url_for('pokedex.select_mon') }}", method="POST">
+		<input name="PokeID" type="text">
+		<button type="submit">Enter Pokemon ID number</button>
+	</form>
 </body>
 
 {% endblock %}

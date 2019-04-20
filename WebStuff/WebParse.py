@@ -33,7 +33,7 @@ for table in allTables:
         else:
             type1 = data[4].find('a').getText().encode("utf8")
 
-        f.write(pId + " " + name + " " + type1 + " " + type2 + '\n')
+        f.write(pId + " '" + name + "' '" + type1 + "/" + type2 + "'\n")
 
     f.close()
     gen += 1
