@@ -20,7 +20,6 @@ def dex_route():
 @pokedex.route('/Pokedex/selectGen', methods=['POST'])
 def select_gen():
     gen = request.form['Gen']
-    print >>sys.stderr, gen
     database = connect_db()
     return render_template("Pokedex.html")    
 
@@ -31,5 +30,4 @@ def select_mon():
     database = connect_db()
     connection = database.cursor()
     connection.execute("SELECT * FROM POKEDEX WHERE ID = ?", idNum)
-    print >>sys.stderr, connection.fetchall()
     return render_template("Pokedex.html")    
