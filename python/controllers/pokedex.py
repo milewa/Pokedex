@@ -26,8 +26,11 @@ def select_gen():
 @pokedex.route('/Pokedex/selectMon', methods=['POST'])
 def select_mon():
     idNum = request.form['PokeID']
-    print >>sys.stderr, idNum
     database = connect_db()
     connection = database.cursor()
-    connection.execute("SELECT * FROM POKEDEX WHERE ID = ?", idNum)
-    return render_template("Pokedex.html")    
+    cur = connection.execute("SELECT * FROM POKEDEX WHERE ID = ?", idNum)
+    data = cur.fetchall()
+    typing = data[0][2]
+    if typing[len(typing) - 1] is '/':
+        typing = typing[:-1]
+    return render_template("Pokedex.html", name = data[0][1], pokemonType = typing)

@@ -20,6 +20,10 @@
 		<input name="PokeID" type="text">
 		<button type="submit">Enter Pokemon ID number</button>
 	</form>
+
+    {% if name %}
+        <p>{{name}} is a {{pokemonType}} Pokemon.</p>
+    {% endif %}
 </body>
 
 {% endblock %}
