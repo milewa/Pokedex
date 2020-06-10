@@ -5,13 +5,13 @@ it contains information on all known Pokemon.
 The first part is to use sqlite and C++ to create a database and be able to create a table,
 and insert and select from that table. 
 
-The second part is to use Perl (subject to change) to get information from Bulbapedia,
+The second part is to use Python to create a web scraper to get information from Bulbapedia,
 an online wiki of Pokemon, and use that to populate the database.
 
 Lastly, I would like to be able to make it so a user can query the Pokedex to search information
-on Pokemon they are intrested in by providing information such as name, type, or id. 
+on Pokemon they are intrested in by providing information such as name, type, or id. This is done by using Python Flask.
 
 I also used HTML and CSS to try and make a front-end site where I can allow users to query the database on a website. 
-Currently, I am taking a web development class and I plan to use what I learned to make the website more dynamic.
+
 
 
